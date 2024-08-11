@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- title -->
+    <title>Testimonial Slider</title>
+
+    <!-- favicon -->
+    <!-- <link href="img/favicon.png" type="image/png" rel="icon"> -->
+
+    <!-- all css here -->
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+    <div class="testimonial_wrapper">
+        <div class="owl-carousel testimonial_slider">
+            <div class="testimonial_wrap">
+                <img class="client_img" src="img/client.png">
+                <span>12. 10. 2019</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus orci id tempor lobortis. Proin metus lorem, laoreet vulputate mauris et.</p>
+                <div class="star_icon">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                </div>
+                <h4>Director of Company Name</h4>
+                <h2>THEME EXPERT</h2>
+            </div>
+            <div class="testimonial_wrap">
+                <img class="client_img" src="img/client.png">
+                <span>12. 10. 2019</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus orci id tempor lobortis. Proin metus lorem, laoreet vulputate mauris et.</p>
+                <div class="star_icon">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                </div>
+                <h4>Director of Company Name</h4>
+                <h2>THEME EXPERT</h2>
+            </div>
+            <div class="testimonial_wrap">
+                <img class="client_img" src="img/client.png">
+                <span>12. 10. 2019</span>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc finibus orci id tempor lobortis. Proin metus lorem, laoreet vulputate mauris et.</p>
+                <div class="star_icon">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                    <img src="img/star.png" alt="star">
+                </div>
+                <h4>Director of Company Name</h4>
+                <h2>THEME EXPERT</h2>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+        
+        function brand_carouselInit() {
+            $('.owl-carousel.testimonial_slider').owlCarousel({
+                dots: false,
+                loop: true,
+                margin: 60,
+                stagePadding: 0,
+                autoWidth:true,
+                autoplay: true,
+                autoplayTimeout: 2500,
+                smartSpeed:3000,
+                autoplayHoverPause: false,
+                // responsive: {
+                //     0: {
+                //         items: 1
+                //     },
+                //     768: {
+                //         items: 2,
+                //     },
+                //     992: {
+                //         items: 5
+                //     }
+                // }
+            });
+        }
+        brand_carouselInit();
+
+    </script>
+</body>
+</html>
